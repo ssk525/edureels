@@ -4,6 +4,15 @@ Vertical educational YouTube reels for AI/ML learning — Expo React Native (Typ
 
 Portfolio / resume project with full decision docs under [`docs/`](docs/DOCS_INDEX.md).
 
+## Download the Android app
+
+Install the latest standalone APK (no PC / Expo Go needed):
+
+**[Download EduReels APK (Google Drive)](https://drive.google.com/file/d/1PqOMWOtLHw2e3FdjbXvoQQjZZbDnax07/view?usp=sharing)**
+
+On Android: open the link → Download → allow “Install unknown apps” if prompted.  
+Details: [docs/SHARE_APK.md](docs/SHARE_APK.md)
+
 ## Features
 
 - Vertical reels feed with topics + search  
@@ -44,6 +53,9 @@ EXPO_PUBLIC_YOUTUBE_API_KEY=your_key_here
 **Never commit `.env`.**
 
 ## Standalone APK
+
+- **Public install link:** [Google Drive APK](https://drive.google.com/file/d/1PqOMWOtLHw2e3FdjbXvoQQjZZbDnax07/view?usp=sharing)
+- Rebuild yourself:
 
 ```bash
 npx eas-cli login
