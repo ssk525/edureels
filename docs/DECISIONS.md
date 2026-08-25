@@ -62,8 +62,8 @@
 ## D-009 · Project continuity docs are first-class
 
 - **Date:** 2026-08-10
-- **Decision:** Maintain `docs/` (HANDOVER, DECISIONS, FLOW, ARCHITECTURE, CONSTRAINTS, TEST_CHECKLIST, ROLLBACK, bug/feature traces).
-- **Reason:** Portfolio + resume require the owner to understand deep “why”; sessions must not start from zero.
+- **Decision:** Maintain public engineering docs (DECISIONS, FLOW, ARCHITECTURE, CONSTRAINTS, CODE_WALKTHROUGH).
+- **Reason:** Reviewers and future maintainers should understand the “why” without private notes.
 
 ## D-010 · Persist last topic + educational title ranking
 

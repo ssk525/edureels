@@ -1,6 +1,6 @@
 # CODE WALKTHROUGH (resume / interview)
 
-> Own the mental model. Pair with [FLOW.md](FLOW.md), [DECISIONS.md](DECISIONS.md), [INTERVIEW_PITCH.md](INTERVIEW_PITCH.md).
+> Own the mental model. Pair with [FLOW.md](FLOW.md) and [DECISIONS.md](DECISIONS.md).
 
 ## Elevator pitch (30 seconds)
 

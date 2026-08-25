@@ -59,4 +59,4 @@ Educational vertical video feed (YouTube) + local learning journal + AI Pulse (R
 
 ## Related
 
-[FLOW.md](FLOW.md) · [DECISIONS.md](DECISIONS.md) · [LEARNING_FROM_SCRATCH.md](LEARNING_FROM_SCRATCH.md)
+[FLOW.md](FLOW.md) · [DECISIONS.md](DECISIONS.md) · [CODE_WALKTHROUGH.md](CODE_WALKTHROUGH.md)

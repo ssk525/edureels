@@ -2,8 +2,6 @@
 
 Vertical educational YouTube reels for AI/ML learning — Expo React Native (TypeScript), local library, AI news + arXiv papers, Android APK via EAS.
 
-Portfolio / resume project with full decision docs under [`docs/`](docs/DOCS_INDEX.md).
-
 ## Download the Android app
 
 Install the latest standalone APK (no PC / Expo Go needed):
@@ -23,23 +21,20 @@ Details: [docs/SHARE_APK.md](docs/SHARE_APK.md)
 - Per-device API key setup  
 - Standalone Android APK (EAS)
 
-## Docs (start here)
+## Docs
 
-| Audience | Open |
+| Doc | Purpose |
 | --- | --- |
-| **Project status / continuity** | [docs/DOCS_INDEX.md](docs/DOCS_INDEX.md) → [docs/HANDOVER.md](docs/HANDOVER.md) |
-| **Learn the build** | [docs/LEARNING_FROM_SCRATCH.md](docs/LEARNING_FROM_SCRATCH.md) |
-| **Interview talk** | [docs/INTERVIEW_PITCH.md](docs/INTERVIEW_PITCH.md) |
-| **Interview Q&A** | [docs/INTERVIEW_QA.md](docs/INTERVIEW_QA.md) |
-| **Resume (3 lines)** | [docs/RESUME_BULLETS.md](docs/RESUME_BULLETS.md) |
-| **APK share** | [docs/SHARE_APK.md](docs/SHARE_APK.md) |
-
-Also: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) · [docs/DECISIONS.md](docs/DECISIONS.md)
+| [docs/DOCS_INDEX.md](docs/DOCS_INDEX.md) | Index of public docs |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | System shape |
+| [docs/FLOW.md](docs/FLOW.md) | Runtime / data flows |
+| [docs/DECISIONS.md](docs/DECISIONS.md) | Key technical decisions |
+| [docs/CODE_WALKTHROUGH.md](docs/CODE_WALKTHROUGH.md) | Code map |
+| [docs/SHARE_APK.md](docs/SHARE_APK.md) | Install / share APK |
 
 ## Run (development)
 
 ```bash
-cd edu-ai-reels
 npm install
 npx expo start --tunnel
 ```
@@ -71,9 +66,5 @@ src/components/   AppShell, Feed, News, Library, Settings, player
 src/hooks/        useVideoFeed, useLibrary, useSettings, useApiKey
 src/services/     youtube, cache, quota, library, learning, aiNews, arxiv, apiKey
 src/config/       topics, env
-docs/             learning, interview, resume, architecture, decisions
+docs/             architecture, flow, decisions, walkthrough
 ```
-
-## GitHub
-
-When pushing: exclude secrets, include `docs/`, use resume blurb from [docs/RESUME_BULLETS.md](docs/RESUME_BULLETS.md).
